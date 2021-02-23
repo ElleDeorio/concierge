@@ -18,13 +18,13 @@ public class HiddenPlaces extends JFrame{
 		JOptionPane.showMessageDialog(frame, " Aktun-Chen Natural Park ","CANCUN",
 				JOptionPane.CANCEL_OPTION,cancun);
 		}
-		if (place==2) {
+		else if (place==2) {
 			ImageIcon cancun= new ImageIcon(("ruins.jpeg"));
 			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, " Ancient Ruins of Coba ","CANCUN",
 					JOptionPane.CANCEL_OPTION,cancun);
 		}
-		if (place==3) {
+		else if (place==3) {
 			ImageIcon cancun= new ImageIcon(("reef.jpeg"));
 			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, " Garrafon Natural Reef Park ","CANCUN",
@@ -41,13 +41,13 @@ public class HiddenPlaces extends JFrame{
 		JOptionPane.showMessageDialog(frame, "The Elevated Acre ","NEW YORK",
 				JOptionPane.CANCEL_OPTION,newYork);
 		}
-		if (place1==2) {
+		else if (place1==2) {
 			ImageIcon newYork= new ImageIcon(("garden.jpeg"));
 			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, " Secret Gardens of Rockefeller Center ","NEW YORK",
 					JOptionPane.CANCEL_OPTION,newYork);
 		}
-		if (place1==3) {
+		else if (place1==3) {
 			ImageIcon newYork= new ImageIcon(("art.jpeg"));
 			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, " Street Art ","NEW YORK",
@@ -59,18 +59,18 @@ public class HiddenPlaces extends JFrame{
 		Scanner userInput = new Scanner(System.in);
 		int place3 = userInput.nextInt();
 		if (place3==1) {
-		ImageIcon florence= new ImageIcon(("sanMarco.jpeg"));
+		ImageIcon florence= new ImageIcon(("sanmarco.jpeg"));
 		HiddenPlaces frame= new HiddenPlaces();
 		JOptionPane.showMessageDialog(frame, "San Marco Museum ","FLORENCE",
 				JOptionPane.CANCEL_OPTION,florence);
 		}
-		if (place3==2) {
+		else if (place3==2) {
 			ImageIcon florence= new ImageIcon(("market.jpeg"));
 			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, "Market in Piazzi dei Ciompi ","FLORENCE",
 					JOptionPane.CANCEL_OPTION,florence);
 		}
-		if (place3==3) {
+		else if (place3==3) {
 			ImageIcon florence= new ImageIcon(("torrigiani.jpeg"));
 			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, " Torrigiani Garden","FLORENCE",
@@ -87,13 +87,13 @@ public class HiddenPlaces extends JFrame{
 		JOptionPane.showMessageDialog(frame, "St.Dunstans in the East","LONDON",
 				JOptionPane.CANCEL_OPTION,london);
 		}
-		if (place4==2) {
+		else if (place4==2) {
 			ImageIcon london= new ImageIcon(("isabelle.jpeg"));
 			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, "Isabella Plantation","LONDON",
 					JOptionPane.CANCEL_OPTION,london);
 			}
-		if (place4==3) {
+		else if (place4==3) {
 			ImageIcon london= new ImageIcon(("cafe.jpeg"));
 			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, "Queen Elizabeth Roof Garden Cafe","LONDON",
@@ -105,18 +105,18 @@ public class HiddenPlaces extends JFrame{
 		Scanner userInput = new Scanner(System.in);
 		int place5 = userInput.nextInt();
 		if (place5==1) {
-		ImageIcon paris= new ImageIcon(("statue.jpeg"));
+		ImageIcon paris= new ImageIcon(("luxembourg.jpeg"));
 		Component frame= new HiddenPlaces();
-		JOptionPane.showMessageDialog(frame, "The Statue of Liberty in the Jardins de Luxembourg","PARIS",
+		JOptionPane.showMessageDialog(frame, "Jardins de Luxembourg","PARIS",
 				JOptionPane.CANCEL_OPTION,paris);
 		}
-		if (place5==2) {
+		else if (place5==2) {
 			ImageIcon paris= new ImageIcon(("carousel.jpeg"));
 			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, "Ride the Curious Dodo Manege","PARIS",
 					JOptionPane.CANCEL_OPTION,paris);
 			}
-		if (place5==3) {
+		else if (place5==3) {
 			ImageIcon paris= new ImageIcon(("vineyard.jpeg"));
 			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, "Montmatre Vineyards","PARIS",
