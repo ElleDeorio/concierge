@@ -1,9 +1,11 @@
+import java.awt.Component;
 import java.io.IOException;
 import java.util.Scanner;
 
 import javax.swing.ImageIcon;
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-public class HiddenPlaces {
+public class HiddenPlaces extends JFrame{
 	
 
 	public static void cancun() throws IOException{
@@ -12,19 +14,19 @@ public class HiddenPlaces {
 		int place = userInput.nextInt();
 		if (place==1) {
 		ImageIcon cancun= new ImageIcon(("park.jpeg"));
-		MajorPoints frame= new MajorPoints();
+		HiddenPlaces frame= new HiddenPlaces();
 		JOptionPane.showMessageDialog(frame, " Aktun-Chen Natural Park ","CANCUN",
 				JOptionPane.CANCEL_OPTION,cancun);
 		}
 		if (place==2) {
 			ImageIcon cancun= new ImageIcon(("ruins.jpeg"));
-			MajorPoints frame= new MajorPoints();
+			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, " Ancient Ruins of Coba ","CANCUN",
 					JOptionPane.CANCEL_OPTION,cancun);
 		}
 		if (place==3) {
 			ImageIcon cancun= new ImageIcon(("reef.jpeg"));
-			MajorPoints frame= new MajorPoints();
+			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, " Garrafon Natural Reef Park ","CANCUN",
 					JOptionPane.CANCEL_OPTION,cancun);
 		}
@@ -35,19 +37,19 @@ public class HiddenPlaces {
 		int place1 = userInput.nextInt();
 		if (place1==1) {
 		ImageIcon newYork= new ImageIcon(("acre.jpeg"));
-		MajorPoints frame= new MajorPoints();
+		HiddenPlaces frame= new HiddenPlaces();
 		JOptionPane.showMessageDialog(frame, "The Elevated Acre ","NEW YORK",
 				JOptionPane.CANCEL_OPTION,newYork);
 		}
 		if (place1==2) {
 			ImageIcon newYork= new ImageIcon(("garden.jpeg"));
-			MajorPoints frame= new MajorPoints();
+			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, " Secret Gardens of Rockefeller Center ","NEW YORK",
 					JOptionPane.CANCEL_OPTION,newYork);
 		}
 		if (place1==3) {
 			ImageIcon newYork= new ImageIcon(("art.jpeg"));
-			MajorPoints frame= new MajorPoints();
+			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, " Street Art ","NEW YORK",
 					JOptionPane.CANCEL_OPTION,newYork);
 		}
@@ -58,19 +60,19 @@ public class HiddenPlaces {
 		int place3 = userInput.nextInt();
 		if (place3==1) {
 		ImageIcon florence= new ImageIcon(("sanMarco.jpeg"));
-		MajorPoints frame= new MajorPoints();
+		HiddenPlaces frame= new HiddenPlaces();
 		JOptionPane.showMessageDialog(frame, "San Marco Museum ","FLORENCE",
 				JOptionPane.CANCEL_OPTION,florence);
 		}
 		if (place3==2) {
 			ImageIcon florence= new ImageIcon(("market.jpeg"));
-			MajorPoints frame= new MajorPoints();
+			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, "Market in Piazzi dei Ciompi ","FLORENCE",
 					JOptionPane.CANCEL_OPTION,florence);
 		}
 		if (place3==3) {
 			ImageIcon florence= new ImageIcon(("torrigiani.jpeg"));
-			MajorPoints frame= new MajorPoints();
+			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, " Torrigiani Garden","FLORENCE",
 					JOptionPane.CANCEL_OPTION,florence);
 		}
@@ -81,19 +83,19 @@ public class HiddenPlaces {
 		int place4 = userInput.nextInt();
 		if (place4==1) {
 		ImageIcon london= new ImageIcon(("dunstain.jpeg"));
-		MajorPoints frame= new MajorPoints();
+		HiddenPlaces frame= new HiddenPlaces();
 		JOptionPane.showMessageDialog(frame, "St.Dunstans in the East","LONDON",
 				JOptionPane.CANCEL_OPTION,london);
 		}
 		if (place4==2) {
 			ImageIcon london= new ImageIcon(("isabelle.jpeg"));
-			MajorPoints frame= new MajorPoints();
+			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, "Isabella Plantation","LONDON",
 					JOptionPane.CANCEL_OPTION,london);
 			}
 		if (place4==3) {
 			ImageIcon london= new ImageIcon(("cafe.jpeg"));
-			MajorPoints frame= new MajorPoints();
+			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, "Queen Elizabeth Roof Garden Cafe","LONDON",
 					JOptionPane.CANCEL_OPTION,london);
 			}
@@ -104,19 +106,19 @@ public class HiddenPlaces {
 		int place5 = userInput.nextInt();
 		if (place5==1) {
 		ImageIcon paris= new ImageIcon(("statue.jpeg"));
-		MajorPoints frame= new MajorPoints();
+		Component frame= new HiddenPlaces();
 		JOptionPane.showMessageDialog(frame, "The Statue of Liberty in the Jardins de Luxembourg","PARIS",
 				JOptionPane.CANCEL_OPTION,paris);
 		}
 		if (place5==2) {
 			ImageIcon paris= new ImageIcon(("carousel.jpeg"));
-			MajorPoints frame= new MajorPoints();
+			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, "Ride the Curious Dodo Manege","PARIS",
 					JOptionPane.CANCEL_OPTION,paris);
 			}
 		if (place5==3) {
 			ImageIcon paris= new ImageIcon(("vineyard.jpeg"));
-			MajorPoints frame= new MajorPoints();
+			HiddenPlaces frame= new HiddenPlaces();
 			JOptionPane.showMessageDialog(frame, "Montmatre Vineyards","PARIS",
 					JOptionPane.CANCEL_OPTION,paris);
 			}

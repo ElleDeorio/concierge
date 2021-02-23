@@ -21,7 +21,7 @@ public class MajorPoints extends JFrame{
 	public static void Florence() throws IOException{
 		ImageIcon florence= new ImageIcon(("florence.jpeg"));
 		MajorPoints frame= new MajorPoints();
-		JOptionPane.showMessageDialog(frame, "1. Go to the Florence Cathedral \n 2. Palazzo Vecchio \n 3. Walk over the Ponte Vecchio.","FLORENCE",
+		JOptionPane.showMessageDialog(frame, "1. Go to the Duomo Cathedral \n 2. Palazzo Vecchio \n 3. Walk over the Ponte Vecchio.","FLORENCE",
 				JOptionPane.CANCEL_OPTION,florence);
 	}
 	public static void London() throws IOException{

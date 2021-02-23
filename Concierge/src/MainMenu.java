@@ -21,19 +21,19 @@ public class MainMenu {
 			{
 				MajorPoints.cancun();
 			}
-			if (input==2)
+			else if (input==2)
 			{
 				MajorPoints.newYork();
 			}
-			if (input==3)
+			else if (input==3)
 			{
 				MajorPoints.Florence();
 			}
-			if (input==4)
+			else if (input==4)
 			{
 				MajorPoints.London();
 			}
-			if (input==5)
+			else if (input==5)
 			{
 				MajorPoints.Paris();
 			}
@@ -44,19 +44,19 @@ public class MainMenu {
 			{
 				HiddenPlaces.cancun();
 			}
-			if (input==2)
+			else if (input==2)
 			{
 				HiddenPlaces.newYork();
 			}
-			if (input==3)
+			else if (input==3)
 			{
 				HiddenPlaces.Florence();
 			}
-			if (input==4)
+			else if (input==4)
 			{
 				HiddenPlaces.London();
 			}
-			if (input==5)
+			else if (input==5)
 			{
 				HiddenPlaces.Paris();
 			}
