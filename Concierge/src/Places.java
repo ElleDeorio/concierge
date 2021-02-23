@@ -2,7 +2,7 @@ import java.util.List;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class places {
+public class Places {
 public static void array() throws IOException{
 
 	List<String> places=new ArrayList<>();
